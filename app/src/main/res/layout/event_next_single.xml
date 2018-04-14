@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorListBtnClick"
+    android:layout_margin="@dimen/eventnext_margin_ll">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/schedule_recycler_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/eventsnext_tsize_title"
+            android:padding="@dimen/eventsnext_padding_title"
+            android:fontFamily="@font/adam"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/schedule_recycler_vs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vs"
+            android:padding="@dimen/eventsnext_padding_title"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/schedule_recycler_away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/eventsnext_tsize_title"
+            android:padding="@dimen/eventsnext_padding_title"
+            android:fontFamily="@font/adam"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/schedule_recycler_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/eventnext_padding_date"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="@dimen/eventnext_tsize_date"/>
+        <TextView
+            android:id="@+id/schedule_recycler_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/eventnext_tsize_time"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="@dimen/eventnext_tsize_time"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/schedule_recycler_sportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/eventnext_tsize_sport"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"/>
+</LinearLayout>

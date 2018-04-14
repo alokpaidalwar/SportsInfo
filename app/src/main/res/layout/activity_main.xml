@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools">
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_sample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.kekstudio.dachshundtablayout.DachshundTabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:ddAnimatedIndicator="dachshund"
+            custom:ddIndicatorHeight="8dp"
+            android:padding="4dp"
+            custom:tabGravity="fill"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:textAlignment="center"
+            custom:ddIndicatorColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>
+</layout>

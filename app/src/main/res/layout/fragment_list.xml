@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/list_sports_btn"
+            android:layout_width="wrap_content"
+            android:text="@string/list_btn_allsports"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:elevation="@dimen/list_elevation_sportbtn"
+            android:textColor="@android:color/white"
+            android:stateListAnimator="@null"
+            android:background="@color/colorListBtnClick"/>
+
+        <Button
+            android:id="@+id/list_league_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:stateListAnimator="@null"
+            android:background="@color/colorListBtn"
+            android:text="@string/list_btn_allleagues"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_marginT_recycler"/>
+
+</LinearLayout>
+</layout>

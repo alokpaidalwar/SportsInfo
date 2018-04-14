@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sports</string>
+    <string name="allsports_description">Description</string>
+    <string name="list_btn_allsports">All Sports</string>
+    <string name="list_btn_allleagues">All Leagues</string>
+    <string name="allplayersinteam_nationality">Nationality:</string>
+    <string name="allplayersinteam_position">Position:</string>
+    <string name="allteamsinleague_played">Played</string>
+    <string name="allteamsinleague_win">Win</string>
+    <string name="allteamsinleague_loss">Loss</string>
+    <string name="allteamsinleague_draw">Draw</string>
+    <string name="schedule_search">Search</string>
+    <string name="schedule_next15">Next 15 Events of \u0020</string>
+    <string name="schedule_next5">Next 5 Events of \u0020</string>
+    <string name="todays_events">Today\'s Events</string>
+    <string name="radio_search_by_team">Search by Team</string>
+    <string name="radio_search_by_league">Search by League</string>
+    <string name="result_past15">Past 15 Events of \u0020</string>
+    <string name="result_past5">Past 5 Events of \u0020</string>
+    <string name="yesterday_events">Yesterday\'s Events</string>
+    <string name="result_selectteam">Select team</string>
+    <string name="schedule_selectteam">Select Team</string>
+    <string name="vs">VS</string>
+    <string name="result_not_found">Results not found of this match</string>
+    <string name="leagues_head">Leagues</string>
+    <string name="home_title">Latest News</string>
+    <string name="splash_sports_info">Sports Info</string>
+    <dimen name="splash_bar_margin">16dp</dimen>
+    <dimen name="splash_img_dim">300dp</dimen>
+
+</resources>
